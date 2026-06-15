@@ -1,0 +1,16 @@
+{
+    "Name": "Disentangling objects' contextual associations from perceptual and conceptual attributes using time-resolved neural decoding",
+    "BIDSVersion": "1.0.2",
+    "License": "CC0",
+    "Authors": [
+        "Kim, Ariel*",
+        "Quek, Genevieve*",
+        "Moerel, Denise*",
+        "Gorton, Olivia",
+        "Carlson, Thomas"
+    ],
+    "Acknowledgements": "The authors acknowledge the University of Sydney HPC service for providing High Performance Computing resources.",
+    "Funding": [
+        "ARC DP200101787 (TAC)"
+    ]
+}
