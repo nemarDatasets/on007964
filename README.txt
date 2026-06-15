@@ -1,3 +1,1 @@
-Experiment Details
-
-We recorded 128 channel EEG data from 20 observers as they viewed object images appearing at a rate of 3.33 Hz (image duration = 100 ms; ISI = 200 ms). One participant (sub-02) was excluded from the results due to a technical error in the EEG data, resulting in a final sample of 19 participants.
+.git/annex/objects/xv/F0/SHA256E-s603--61c848fd7d91c6aaaea6d94ddb9bf1bd62eb8c929f3374d646291f2cecf77c1e.txt/SHA256E-s603--61c848fd7d91c6aaaea6d94ddb9bf1bd62eb8c929f3374d646291f2cecf77c1e.txt
