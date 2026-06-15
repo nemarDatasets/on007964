@@ -1,0 +1,53 @@
+{
+    "onset": {
+        "Description": "the onset time of the event"
+    },
+    "duration": {
+        "Description": "not used, see stimduration and soaduration"
+    },
+    "eventnumber": {
+        "Description": "event number in the experiment"
+    },
+    "stimnumber": {
+        "Description": "ID number of the stimulus concept that was shown"
+    },
+    "stimulus_idx": {
+        "Description": "Stimulus number of the concept"
+    },
+    "stim_path": {
+        "Description": "path to the stimulus file"
+    },
+    "sequencenumber": {
+        "Description": "sequence number"
+    },
+    "presentationnumber": {
+        "Description": "trial number per block"
+    },
+    "stimduration": {
+        "Description": "duration of the stimulus (sec) "
+    },
+    "soaduration": {
+        "Description": "stimulus onset asynchrony (sec) "
+    },
+    "istraget": {
+        "Description": "was this stimulus presentation a target? 0 = no, 1 = yes"
+    },
+    "response": {
+        "Description": "did the participant respond? 0 = no, 1 = yes"
+    },
+    "rt": {
+        "Description": "if the participant responded, this is the response time relative to the target onset (in sec). If no response, this will be 0."
+    },
+    "correct": {
+        "Description": "was the response correct? 1 = correct, 0 = incorrect/no response"
+    },
+    "time_stimon": {
+        "Description": "time the stimulus came on the screen (psychopy time relative to experiment start)"
+    },
+    "time_stimoff": {
+        "Description": "time the stimulus was removed from the screen (psychopy time relative to experiment start)"
+    },
+    "stimdur": {
+        "Description": "duration of the stimulus (sec)"
+    }
+}
