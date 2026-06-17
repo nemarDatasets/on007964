@@ -67,8 +67,8 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "This dataset contains 128-channel EEG recordings from 20 observers (19 included in final analysis) viewing object images presented at 3.33 Hz to investigate how contextual associations, perceptual attributes, and conceptual features are represented in neural activity. Time-resolved neural decoding was applied to disentangle these distinct dimensions of object representation, with representational dissimilarity matrices provided alongside raw EEG data.",
-  "methods_description": "EEG data were recorded from 20 observers using 128 channels while participants viewed object images presented at 3.33 Hz (100 ms image duration, 200 ms interstimulus interval). One participant was excluded due to a technical error, resulting in a final sample of 19 participants.",
+  "description": "This dataset contains 128-channel EEG recordings from 20 observers (19 included in final analysis) viewing object images at 3.33 Hz to investigate how contextual associations, perceptual attributes, and conceptual properties of objects are represented in neural activity. One participant was excluded due to a technical error in EEG recording. Time-resolved neural decoding was applied to disentangle these distinct representational dimensions from the EEG signals.",
+  "methods_description": "EEG data were recorded from 128 channels while 20 observers (19 included in final analysis) viewed object images presented at 3.33 Hz (100 ms image duration, 200 ms interstimulus interval). Representational dissimilarity matrices were computed from the neural data.",
   "keywords": [
     {
       "term": "EEG"
@@ -80,25 +80,31 @@
       "term": "object recognition"
     },
     {
+      "term": "object representation"
+    },
+    {
       "term": "representational dissimilarity analysis"
     },
     {
       "term": "contextual associations"
     },
     {
+      "term": "perceptual attributes"
+    },
+    {
+      "term": "conceptual attributes"
+    },
+    {
       "term": "visual perception"
     },
     {
-      "term": "semantic representation"
+      "term": "time-resolved decoding"
     },
     {
       "term": "temporal dynamics"
     },
     {
-      "term": "rapid serial visual presentation"
-    },
-    {
-      "term": "multivariate pattern analysis"
+      "term": "semantic representation"
     }
   ],
   "source_hash": "93b777292896358252fb8d9a7294955498e831f13055f4502b10f30d739e380d"
