@@ -1,37 +1,105 @@
 {
   "version": "2.0",
-  "dataset_id": "on007964",
-  "source": "openneuro",
-  "source_id": "ds007964",
+  "pipeline_stage": "enriched",
   "title": "Disentangling objects' contextual associations from perceptual and conceptual attributes using time-resolved neural decoding",
-  "authors": {
-    "Kim, Ariel*": {},
-    "Quek, Genevieve*": {},
-    "Moerel, Denise*": {},
-    "Gorton, Olivia": {},
-    "Carlson, Thomas": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Kim, Ariel*": {},
+    "Quek, Genevieve*": {
+      "orcid": "0000-0002-5905-8405"
+    },
+    "Moerel, Denise*": {
+      "orcid": "0000-0001-9677-0170"
+    },
+    "Gorton, Olivia": {},
+    "Carlson, Thomas": {
+      "orcid": "0000-0002-3953-4195"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007964.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/JY284",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.1101/2025.05.29.656895",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "ARC DP200101787 (TAC)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DP200101787"
     }
   ],
-  "acknowledgements": "The authors acknowledge the University of Sydney HPC service for providing High Performance Computing resources."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "20.2 GB (96 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset contains 128-channel EEG recordings from 20 observers (19 included in final analysis) viewing object images presented at 3.33 Hz to investigate how contextual associations, perceptual attributes, and conceptual features are represented in neural activity. Time-resolved neural decoding was applied to disentangle these distinct dimensions of object representation, with representational dissimilarity matrices provided alongside raw EEG data.",
+  "methods_description": "EEG data were recorded from 20 observers using 128 channels while participants viewed object images presented at 3.33 Hz (100 ms image duration, 200 ms interstimulus interval). One participant was excluded due to a technical error, resulting in a final sample of 19 participants.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "object recognition"
+    },
+    {
+      "term": "representational dissimilarity analysis"
+    },
+    {
+      "term": "contextual associations"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "semantic representation"
+    },
+    {
+      "term": "temporal dynamics"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "multivariate pattern analysis"
+    }
+  ],
+  "source_hash": "93b777292896358252fb8d9a7294955498e831f13055f4502b10f30d739e380d"
 }
