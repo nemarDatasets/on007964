@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007964",
+  "source": "openneuro",
+  "source_id": "ds007964",
+  "title": "Disentangling objects' contextual associations from perceptual and conceptual attributes using time-resolved neural decoding",
+  "authors": {
+    "Kim, Ariel*": {},
+    "Quek, Genevieve*": {},
+    "Moerel, Denise*": {},
+    "Gorton, Olivia": {},
+    "Carlson, Thomas": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007964.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ARC DP200101787 (TAC)"
+    }
+  ],
+  "acknowledgements": "The authors acknowledge the University of Sydney HPC service for providing High Performance Computing resources."
+}
